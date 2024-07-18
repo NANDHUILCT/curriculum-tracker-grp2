@@ -1,0 +1,27 @@
+.sign{
+  
+    font-size: large;
+    border: 4px black;
+    margin-left: 200px;
+    margin-right: 500px;
+     margin-top: 50px; 
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+   
+
+}
+#signup{
+    background-color: blue;
+    font-family: 'Explora', cursive;
+font-family: 'Kaushan Script', cursive;
+
+}
+#logo { 
+    display: block; 
+    size: 1px; 
+    margin-left: 10px; 
+    width: 75px; 
+    height: auto;
+  }

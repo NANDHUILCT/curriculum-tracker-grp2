@@ -1,0 +1,30 @@
+
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/ICT_Academy_Kerala.webp" alt="">
+    <form>
+    <div class="sign">
+<h1>SignUP</h1>
+<br>
+<label>Username</label>
+<br>
+<input type="text" placeholder="type here" [(ngModel)]="username" class="input-field" required>
+<br><br>
+<label>Password</label>
+<br>
+<input type="text" placeholder="type here" [(ngModel)]="password" class="input-field" required>
+<br><br>
+<label>Confirm Password</label>
+<br>
+<input type="text" placeholder="type here" [(ngModel)]="confirmpassword" class="input-field">
+<br><br>
+<label>Phone NO:</label>
+<br>
+<input type="text" placeholder="type here" [(ngModel)]=" phoneno" required>
+<br><br>
+<button type="button" routerLink="/facdash" class="login-btn">SignUP</button> 
+<br><br>
+
+<a routerLink="/admin">Already have an account</a>
+    </div>
+</form>
+
+

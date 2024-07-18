@@ -1,0 +1,14 @@
+<img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/ICT_Academy_Kerala.webp" alt="">
+<div class="whole"> 
+  <h1>Login</h1> 
+  <br><br> 
+  <form (ngSubmit)="Adminlogin()">
+  <label>Username</label> <br> 
+  <input type="text" placeholder="Enter your username"  class="input-field" [(ngModel)]="admin.username"> 
+  <br><br> 
+  <label>Password</label> <br> 
+  <input type="password" placeholder="Enter your password"  class="input-field" [(ngModel)]="admin.password"> <br><br> 
+   <!-- <button type="button"  class="login-btn">Login</button>   -->
+  </form>
+  <button type="button" routerLink="/requirements" class="login-btn">Login</button>  
+</div>
